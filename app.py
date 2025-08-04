@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.figure_factory as ff
+#import plotly.figure_factory as ff
 import plotly.express as px
 import matplotlib.pyplot as plt
 
@@ -51,4 +51,5 @@ with col1:
 with col2:
     with st.expander("Tips...."):
         st.subheader("Tips....")
+
 
