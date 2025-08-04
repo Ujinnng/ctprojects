@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 #import plotly.figure_factory as ff
-import plotly.express as px
-import matplotlib.pyplot as plt
+#import plotly.express as px
+#import matplotlib.pyplot as plt
 
 st.set_page_config(layout='wide', page_title = "My Page")
 
@@ -51,5 +51,6 @@ with col1:
 with col2:
     with st.expander("Tips...."):
         st.subheader("Tips....")
+
 
 
